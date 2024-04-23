@@ -13,9 +13,9 @@ function S4() {
         <div className="absolute hidden lg:block bottom-1/2 right-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl" />
         <UserIcon className="absolute left-1/2 top-1/2 size-40 -translate-x-1/2 -translate-y-1/2 md:size-96" />
       </div>
-      <div className="flex flex-col items-center lg:items-start justify-center gap-5">
+      <div className="flex flex-col items-center lg:items-start justify-center ">
         <span className="font-extrabold text-4xl">Nume</span>
-        <div className="max-w-[500px] rounded-lg bg-gradient-to-tl from-brown-500/50 via-transparent to-brown-200 p-0.5">
+        <div className="max-w-[500px] rounded-lg bg-gradient-to-tl from-brown-500/50 via-transparent to-brown-200 m-5 p-0.5">
           <div className="overflow-hidden rounded-md bg-neutral-50 p-2.5">
             <span className=" text-center md:text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
