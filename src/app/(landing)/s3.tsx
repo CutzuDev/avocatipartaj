@@ -18,7 +18,7 @@ function S3() {
         </div>
         <div className="flex flex-col items-center justify-center lg:items-end">
           <span className="text-4xl font-extrabold">Nume</span>
-          <div className="m-5 max-w-[500px] rounded-lg bg-gradient-to-tr from-brown-500/50 via-transparent to-brown-200  p-0.5">
+          <div className="m-5 lg:mr-0 max-w-[500px] rounded-lg bg-gradient-to-tr from-brown-500/50 via-transparent to-brown-200 p-0.5">
             <div className="overflow-hidden rounded-md bg-neutral-50 p-2.5">
               <span className=" text-center md:text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
