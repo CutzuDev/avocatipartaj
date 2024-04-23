@@ -18,7 +18,7 @@ function S2() {
         <div className="gradient-mask-r-[transparent,rgba(0,0,0,0.5)_25%,rgba(0,0,0,0.5)_75%] h-px w-full max-w-[1200px] bg-gradient-to-r from-brown-500 via-yellow-500 to-brown-500" />
         {/* <div className="h-px w-full max-w-[1200px] bg-gradient-to-r from-transparent via-brown-600 to-transparent" /> */}
       </div>
-      <div className="flex w-full max-w-[1200px] flex-wrap items-stretch justify-center gap-10 ">
+      <div className="flex w-full max-w-[1200px] p-5 md:p-0 flex-wrap items-stretch justify-center gap-10 ">
         {list.map((e, i) => (
           <div
             key={i}
