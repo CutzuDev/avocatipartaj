@@ -4,7 +4,7 @@ import S2 from "./(landing)/s2";
 
 export default function Home() {
   return (
-    <main className="px-5 w-full flex justify-center items-center flex-col md:px-5">
+    <main className="w-full flex justify-center items-center flex-col ">
       <S1 />
       <S2 />
     </main>
