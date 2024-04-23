@@ -14,10 +14,10 @@ function S5() {
         <UserIcon className="absolute left-1/2 top-1/2 size-40 -translate-x-1/2 -translate-y-1/2 md:size-96" />
       </div>
       <div className="flex flex-col items-center justify-center gap-2.5">
-        <span className="text-2xl font-extrabold md:text-4xl">
+        <span className="text-2xl text-center font-extrabold md:text-4xl">
           Primul consult este oferit <span className="bg-gradient-to-br from-yellow-400 to-brown-300 bg-clip-text text-transparent">gratuit</span>.
         </span>
-        <span className=" text-center md:text-justify">
+        <span className=" text-center md:text-justify font-semibold">
           Te invităm să ne contactezi acum pentru a găsi soluția potrivită
           pentru nevoile tale.
         </span>

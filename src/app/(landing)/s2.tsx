@@ -8,10 +8,10 @@ function S2() {
     { stat: "Castig / Pierderi", number: "111 / 123" },
   ];
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center gap-10 bg-gradient-to-t from-transparent via-brown-500/15 px-2.5 md:p-5  ">
+    <div className="flex min-h-[75vh] -mt-[15vh] md:-mt-[27.5vh] w-full flex-col items-center justify-center gap-10 bg-gradient-to-t from-transparent via-brown-500/10 px-2.5 md:p-5  ">
       <div className="flex flex-col items-center justify-center gap-2.5">
         <span className="text-4xl font-extrabold">Statistici</span>
-        <span>Descoperă câteva din realizările noastre</span>
+        <span className="font-semibold">Descoperă câteva din realizările noastre</span>
       </div>
       <div className="relative flex w-full flex-col items-center justify-center">
         {/* <div className="h-px w-full bg-gradient-to-r from-black to-white gradient-mask-r-0"></div> */}
@@ -24,14 +24,12 @@ function S2() {
             key={i}
             className=" flex basis-full items-center justify-center rounded-lg bg-gradient-to-tl from-brown-500 via-yellow-500 to-brown-300 p-0.5 sm:basis-1/2 md:basis-[30%]"
           >
-            <div className="h-full w-full rounded-md bg-white">
-              <div className="flex h-full w-full items-center justify-center flex-col gap-2.5 bg-brown-500/15 p-5 ">
+              <div className="flex h-full w-full items-center justify-center flex-col gap-2.5 bg-neutral-50 rounded-md p-5 ">
                 <span className="text-xl font-semibold md:text-xl lg:text-2xl">
                   {e.stat}
                 </span>
                 <span>{e.number}</span>
               </div>
-            </div>
           </div>
         ))}
       </div>
