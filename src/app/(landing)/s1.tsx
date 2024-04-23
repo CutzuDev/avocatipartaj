@@ -15,9 +15,14 @@ function S1() {
             acum butonul de contact și lasă-ne să îți oferim soluțiile juridice
             de care ai nevoie!
           </span>
-          <Button className="mt-5" variant={"cta"}>Contact</Button>
+          <Button className="mt-5" variant={"cta"}>
+            Contact
+          </Button>
         </div>
-        <div className="relative aspect-square w-full max-w-[500px] overflow-hidden rounded-full bg-orange-400/25">
+        <div className="relative aspect-square w-full max-w-[500px]">
+          <div className="absolute left-0 top-0 aspect-square w-full rounded-full bg-brown-400/35" />
+          <div className="absolute left-1/2 top-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/25 blur-3xl" />
+          <div className="absolute bottom-1/2 right-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/25 blur-3xl" />
           <UserIcon className="absolute left-1/2 top-1/2 size-96 -translate-x-1/2 -translate-y-1/2" />
         </div>
       </div>
