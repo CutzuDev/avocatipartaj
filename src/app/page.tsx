@@ -4,11 +4,13 @@ import S2 from "./(landing)/s2";
 import S3 from "./(landing)/s3";
 import S4 from "./(landing)/s4";
 import S5 from "./(landing)/s5";
+import S1V2 from "./(landing)/s1alt";
 
 export default function Home() {
   return (
     <main className="w-full flex justify-center items-center flex-col ">
-      <S1 />
+      {/* <S1 /> */}
+      <S1V2 />
       <S2 />
       <S3 />
       <S4 />
