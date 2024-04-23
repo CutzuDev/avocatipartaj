@@ -9,8 +9,8 @@ function S4() {
         <div className="absolute left-0 top-0 flex aspect-square w-full items-stretch justify-stretch rounded-full p-5 ">
           <div className=" w-full rounded-full bg-brown-400/25"></div>
         </div>
-        <div className="absolute left-1/2 top-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl" />
-        <div className="absolute bottom-1/2 right-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl" />
+        <div className="absolute hidden lg:block left-1/2 top-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl" />
+        <div className="absolute hidden lg:block bottom-1/2 right-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl" />
         <UserIcon className="absolute left-1/2 top-1/2 size-40 -translate-x-1/2 -translate-y-1/2 md:size-96" />
       </div>
       <div className="flex flex-col items-center lg:items-start justify-center gap-5">

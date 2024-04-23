@@ -9,12 +9,12 @@ function S3() {
         <div className="absolute left-0 top-0 flex aspect-square w-full items-stretch justify-stretch rounded-full p-5 ">
           <div className=" w-full rounded-full bg-brown-400/25"></div>
         </div>
-        <div className="absolute right-1/2 top-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl" />
-        <div className="absolute bottom-1/2 left-1/2 -z-50 aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl" />
+        <div className="absolute right-1/2 top-1/2 -z-50 hidden aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl lg:block" />
+        <div className="absolute bottom-1/2 left-1/2 -z-50 hidden aspect-square w-3/4 rounded-full bg-brown-700/20 blur-3xl lg:block" />
         <UserIcon className="absolute left-1/2 top-1/2 size-40 -translate-x-1/2 -translate-y-1/2 md:size-96" />
       </div>
-      <div className="flex flex-col items-center lg:items-end justify-center gap-5 p-5">
-        <span className="font-extrabold text-4xl">Nume</span>
+      <div className="flex flex-col items-center justify-center gap-5 p-5 lg:items-end">
+        <span className="text-4xl font-extrabold">Nume</span>
         <div className="max-w-[500px] rounded-lg bg-gradient-to-tr from-brown-500/50 via-transparent to-brown-200  p-0.5">
           <div className="overflow-hidden rounded-md bg-neutral-50 p-2.5">
             <span className=" text-center md:text-justify">
