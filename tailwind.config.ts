@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       colors: {
-        "brown": {
+        brown: {
           "50": "#f7f5ef",
           "100": "#ece5d5",
           "200": "#dbcbad",
@@ -49,7 +49,10 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("tailwind-gradient-mask-image"),
+  ],
 } satisfies Config;
 
 export default config;
