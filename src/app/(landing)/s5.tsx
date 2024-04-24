@@ -15,7 +15,7 @@ function S5() {
       </div>
       <div className="flex flex-col items-center justify-center gap-2.5">
         <span className="text-2xl text-center font-extrabold md:text-4xl">
-          Primul consult este oferit <span className="bg-gradient-to-br from-yellow-400 to-brown-300 bg-clip-text text-transparent">gratuit</span>.
+          Primul consult este oferit <span className="bg-gradient-to-br from-yellow-400 to-brown-500 bg-clip-text text-transparent">gratuit</span>.
         </span>
         <span className=" text-center md:text-justify font-semibold">
           Te invităm să ne contactezi acum pentru a găsi soluția potrivită

@@ -5,7 +5,7 @@ import Link from "next/link";
 function S3() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center gap-5 px-2.5 pt-20  md:gap-10 md:p-5">
-      <span className="text-4xl font-extrabold">Echipa noastră</span>
+      <span className="text-4xl md:text-6xl font-extrabold">Echipa noastră</span>
       <div className="h-px w-full max-w-[1200px] bg-gradient-to-r from-brown-500 via-yellow-500 to-brown-500 gradient-mask-r-[transparent,rgba(0,0,0,0.5)_25%,rgba(0,0,0,0.5)_75%]" />
       <div className="flex w-full flex-col-reverse items-center justify-center gap-10 lg:flex-row lg:justify-around">
         <div className="relative aspect-square w-full max-w-[500px]">
